@@ -1,0 +1,91 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+/* Styling for the entire app container */
+.app-container {
+    font-family: Arial, sans-serif;
+    margin: 0 auto;
+    padding: 20px;
+    max-width: 600px;
+    text-align: center;
+    background-color: #f0f0f0;
+}
+
+/* Styling for the reminder cards */
+.reminder {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Styling for the buttons */
+.button {
+    font-size: 16px;
+    padding: 8px 16px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+/* Styling for the input fields */
+.input-field {
+    margin: 5px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+/* Styling for the select dropdown */
+.select-dropdown {
+    margin: 5px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+/* Styling for the checkbox label */
+.checkbox-label {
+    display: inline-block;
+    margin-left: 5px;
+    color: #333;
+}
+
+/* Styling for the title */
+.title {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #007bff;
+}
+
+/* Styling for the current date paragraph */
+.current-date {
+    font-style: italic;
+    margin-top: 5px;
+    color: #666;
+}
+
+/* Styling for the reminders container */
+.reminders-container {
+    margin-top: 20px;
+}
